@@ -1,6 +1,6 @@
 # r3live_preview
 ## Introduction
-&emsp;This page shown more visualization results of our related paper **''R$^3$LIVE: A Robust, Real-time, RGB-colored, LiDAR-Inertial-Visual tightly-coupled state Estimation and mapping package''** ([arxiv](https://arxiv.org/abs/2109.07982), [github](https://github.com/hku-mars/r3live)), with providing the download the offline maps of our experiment result:
+&emsp;This page shown more visualization results of our related paper **''R<sup>3</sup>LIVE: A Robust, Real-time, RGB-colored, LiDAR-Inertial-Visual tightly-coupled state Estimation and mapping package''** ([arxiv](https://arxiv.org/abs/2109.07982), [github](https://github.com/hku-mars/r3live)), with providing the download the offline maps of our experiment result:
 
 ### Offline map of our Experiment-2
 &emsp;The offline pointcloud maps ([hkust_campus_pointcloud.pcd](https://drive.google.com/file/d/1Mh2117Eir1GE5Sd_SaQlrNG6yJ6Ydv3t/view?usp=sharing)) of our Experiment-2 can be download on our [**google-drive**](https://drive.google.com/drive/folders/1UTV5QtFkkgjN6l17tXTboTMWbKPY3llJ?usp=sharing):
@@ -21,14 +21,14 @@ More over, we also provide the offline pointcloud maps ([hku_demo_pointcloud.pcd
 
 
 ## How to open?
-For our offline pointcloud maps (with suffix **.ply*), you can open it with pcl_viewer, [CloudCompare](https://www.danielgm.net/cc/), and etc:
+For our offline pointcloud maps (with suffix **.pcd*), you can open it with pcl_viewer, [CloudCompare](https://www.danielgm.net/cc/), and etc:
 ```
-sudo apt-get install meshlab
+sudo apt-get install pcl-tools
 pcl_viewer YOUR_DOWNLOADED_MAP.ply
 ```
 
-For our offline mesh file, you can open it with [meshlab](https://www.meshlab.net/), [CloudCompare](https://www.danielgm.net/cc/), and etc:
+For our offline mesh file (with suffix **.ply*), you can open it with [meshlab](https://www.meshlab.net/), [CloudCompare](https://www.danielgm.net/cc/), and etc:
 ```
-sudo apt-get install pcl-tools 
+sudo apt-get install meshlab 
 pcl_viewer YOUR_DOWNLOADED_MAP.ply
 ```
